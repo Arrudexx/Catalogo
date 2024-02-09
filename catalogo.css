@@ -1,0 +1,340 @@
+/* Catalog */
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  :root{
+    --purple: #7a006a;
+    --black: #000000;
+    --white: #ededed;
+  }
+  
+  html,
+  body{
+    width: 100;
+    overflow-x:hidden;
+  }
+     header{
+      width:100%;
+      height: 500px;
+      background: var(--purple);
+     }   
+     .content {
+        max-width: 1000px;
+        min-width: 300px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+      }
+section .catalog {
+    width: 100vw;
+    padding: 100px;
+  }
+  
+  section .filter-baska {
+    width: 980px;
+    height: 150px;
+    background: var(--purple);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-input {
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    text-indent: 10px;
+  }
+  
+  .search-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    background: var(--white);
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.2s ease;
+  }
+  
+  .search-button:hover {
+    background: #dedede;
+    color: var(--black);
+  }
+  
+  .title-wrapper-catalog {
+    margin-top: 200px;
+    padding-bottom: 20px;
+  }
+  
+  section .baska-wrapper {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 50px;
+  }
+  
+  section .baska-item {
+    height: 400px;
+    background: var(--black);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .baska-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .baska-item img {
+    width: 90%;
+  }
+  
+  .baska-item h4 {
+    width: 90%;
+  }
+  
+  .baska-item p {
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+  }
+  
+  .baska-item button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: var(--white);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .baska-item button:hover {
+    background: #dedede;
+    color: var(--purple);
+  }
+  section .catalog {
+    width: 100vw;
+    padding: 100px;
+  }
+  
+  section .filter-baska {
+    width: 980px;
+    height: 150px;
+    background: var(--black);
+    border-radius: 8px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-input {
+    width: 700px;
+    height: 50px;
+    border: none;
+    border-radius: 4px 0px 0px 4px;
+    text-indent: 10px;
+  }
+  
+  .search-button {
+    width: 150px;
+    height: 50px;
+    border-radius: 0px 4px 4px 0px;
+    border: none;
+    background: var(--black);
+    color: white;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: 0.2s ease;
+  }
+  
+  .search-button:hover {
+    background: #dedede;
+    color: var(--black);
+  }
+  
+  .title-wrapper-catalog {
+    margin-top: 200px;
+    padding-bottom: 20px;
+  }
+  
+  section .baska-wrapper {
+    max-width: 1000px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 30px;
+    padding-top: 50px;
+  }
+  
+  section .baska-item {
+    height: 400px;
+    background: var(--purple);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .baska-content {
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  
+  .baska-item img {
+    width: 65%;
+  }
+  
+  .baska-item h4 {
+    width: 90%;
+  }
+  
+  .baska-item p {
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+  }
+  
+  .baska-item button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: var(--black);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .calcao-item button:hover {
+    background: #dedede;
+    color: var(--black);
+  }
+  
+  .calcao-item2 img {
+    width: 40%;
+  }
+  
+  .calcao-item2 h4 {
+    width: 90%;
+  }
+  
+  .calcao-item2 p {
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
+  }
+  
+  .calcao-item2 button {
+    width: 90%;
+    padding: 15px 0px;
+    border: none;
+    background: var(--black);
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-bottom: 10px;
+  }
+  
+  .calcao-item2 button:hover {
+    background: #dedede;
+    color: var(--black);
+  }
+  section .calcao-item2 {
+    height: 400px;
+    background: var(--purple);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  footer {
+    width: 100%;
+    height: 250px;
+  }
+  
+  footer .main {
+    width: 100%;
+    height: 200px;
+    background: var(--purple);
+    padding: 20px 10px;
+  }
+  
+  .footer-links {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .footer-company,
+  .footer-rental,
+  .footer-contact,
+  .footer-social {
+    color: rgb(0, 0, 0);
+    height: 100%;
+    min-height: 100px;
+  }
+  
+  .footer-links h4 {
+    margin-bottom: 10px;
+  }
+  
+  .footer-links {
+    margin-bottom: 8px;
+  }
+  
+  .main .footer-social img {
+    width: 32px;
+    height: 32px;
+  }
+  
+  footer .last {
+    width: 100%;
+    height: 50px;
+    background: var(--blue);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
